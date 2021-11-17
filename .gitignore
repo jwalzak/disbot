@@ -1,0 +1,6 @@
+# ignore files that hold tokens
+config.json
+process.env
+.env 
+
+node_modules
