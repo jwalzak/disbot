@@ -6,7 +6,7 @@ let randomNum;
 
 
 // Require necessary discord.js classes
-const { Client, Intents } = require('discord.js');
+const { Client, Intents, MessageActionRow, MessageButton, MessageEmbed } = require('discord.js');
 const TOKEN = process.env.DISCORD_TOKEN;
 
 // Create a new client instance
@@ -23,14 +23,26 @@ client.on('interactionCreate', async interaction => {
   const { commandName } = interaction;
 
   if (commandName === 'ping') {
-    await interaction.reply('Pong!');
+    const row = new MessageActionRow()
+      .addComponents(
+        new MessageButton()
+          .setCustomId('primary')
+          .setLabel('Primary')
+          .setStyle('PRIMARY'),
+      );
+    await interaction.reply({ content: 'Pong!', components: [row] });
   }
   else if (commandName === 'server') {
     await interaction.reply(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`);
   }
    else if (commandName === 'joke') {
     randomNum = joke[Math.floor(joke.length * Math.random())];
-    await interaction.reply(`Here is your joke:\n ${randomNum}`);
+
+    const embed = new MessageEmbed()
+      .setColor('#00099ff')
+      .setTitle('Here is your very funny joke:')
+      .setDescription(randomNum);
+    await interaction.reply({ content: 'A joke, for you, my friend.', embeds: [embed] });
   }
 });
 
