@@ -1,5 +1,6 @@
 // Require dotenv
 require('dotenv').config();
+require('./command_handler/command_handler.js');
 const jokeList = require('./joke_list.json');
 const joke = jokeList.joke_list;
 let randomNum;

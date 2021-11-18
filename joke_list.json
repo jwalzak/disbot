@@ -32,5 +32,18 @@
     "I don't trust stairs. They are always up to something.",
     "Q: What do you say to a nosy pepper?\n A: Japaeno business!",
     "Q: What's the difference between roast beef and pea soup?\n A: Anyone can roast beef."
+   ],
+   "joke_object": [
+      { 
+         "id": 1001,
+         "type": "Two Line",
+         "joke": "Astronaut 1: Hey mate, I can't find any milk for my coffee \n Astronaut 2: In space, no one can. Here, use cream",
+         "rating": "*****"},
+      { 
+         "id": 1002,
+         "type": "Two Line",
+         "joke": "A ghost floats into a bar and asks for a double gin & tonic. Bartender says \"Sorry we don't serve spirits\"",
+         "rating": "*****"
+      }
    ]
 }
