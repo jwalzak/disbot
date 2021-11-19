@@ -35,14 +35,45 @@
    ],
    "joke_object": [
       { 
-         "id": 1001,
+         "id": 1000,
          "type": "Two Line",
          "joke": "Astronaut 1: Hey mate, I can't find any milk for my coffee \n Astronaut 2: In space, no one can. Here, use cream",
-         "rating": "*****"},
+         "rating": "*****"
+      },
       { 
-         "id": 1002,
+         "id": 1001,
          "type": "Two Line",
          "joke": "A ghost floats into a bar and asks for a double gin & tonic. Bartender says \"Sorry we don't serve spirits\"",
+         "rating": "*****"
+      },
+      {
+         "id": 1002,
+         "type": "Two Line",
+         "joke": "How do you turn a duck into a soul singer?\nPut it inthe oven and wait 'till it's Bill Withers",
+         "rating": "*****"
+      },
+      {
+         "id": 1003,
+         "type":"One Line",
+         "joke": "Man walks into a bar, puts down a slab of concrete and says, \"Can I have a beer, and one for the road too\"",
+         "rating": "*****"
+      },
+      {
+         "id": 1004,
+         "type": "Two Line",
+         "joke": "What do you call birds that are stuck together?\n \"Vel-Crows\"",
+         "rating": "*****"
+      },
+      {
+         "id": 1005,
+         "type": "Multi-Line",
+         "joke": "Descartes walks into a bar and orders a drink.\n When he finishes, the bartender asks if he wants another.\n Descartes replies, \"No, I think not!\" and - *poof!* he disappears.",
+         "rating": "*****"
+      },
+      {
+         "id": 1006,
+         "type":"Two Line",
+         "joke": "What do you call and Italian with a rubber toe?\n Roberto!",
          "rating": "*****"
       }
    ]
