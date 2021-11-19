@@ -1,5 +1,5 @@
 require('dotenv');
-const { REST } = require('@discord=js/rest');
+const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 
 const clientId = process.env.CLIENT_ID;
